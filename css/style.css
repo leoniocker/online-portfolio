@@ -7,7 +7,7 @@ header {
   background-color:beige;
   color:#033048;
   padding-top: 1rem;
-  /*padding-left: 1rem;*/
+  padding-left: 10em;
   display: flex;
 }
 
@@ -22,6 +22,16 @@ nav ul li {
   font-weight: 600;
   padding: 1rem;
   color: mediumvioletred;
+}
+
+h2 {
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .menu-items {
@@ -54,7 +64,27 @@ nav ul li {
 .myself {
   width: 10rem;
  height: 10rem;
- margin: 0.5rem;
+ margin:0;
+ padding: 4rem;
  background-color: rgba(0,0,0, 0.5);
  text-align: center;
+ font-weight: lighter;
+ position: fixed;
+}
+
+.bottomBanner {
+  background-color: oldlace;
+  height: auto;
+  /*display: block;
+  justify-content: center;*/
+  /*background-size: cover;*/
+  /*background-attachment: fixed;*/
+  /*width: 100%; */
+}
+
+.footerText {
+  font-size: 40px;
+  padding: 50px;
+  padding-left: 100px;
+  color: purple;
 }

@@ -1,0 +1,61 @@
+*{
+margin:0;
+}
+
+header {
+  height: 4rem;
+  background-color:beige;
+  color:#033048;
+  padding-top: 1rem;
+  /*padding-left: 1rem;*/
+  display: flex;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  align-content: flex-end;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+  color: mediumvioletred;
+}
+
+.menu-items {
+  justify-content: flex-end;
+
+}
+
+.underHeader1 {
+    background-image: url("../img/leoni_camera.JPG");
+  /*background-repeat: no-repeat;*/
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.underHeader2 {
+    background-image: url("../img/leoni and ukulele.JPG");
+  background-repeat: no-repeat;
+  height: 100vh;
+  /*background-size: cover;*/
+  background-attachment: fixed;
+}
+
+.underHeader3 {
+    background-image: url("../img/sunset.jpg");
+  /*background-repeat: no-repeat;*/
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#myself{
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: blue;
+  color: white;
+  margin: 2rem;
+}

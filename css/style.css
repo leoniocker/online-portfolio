@@ -4,11 +4,16 @@ margin:0;
 
 header {
   height: 4rem;
+  width: 100%;
   background-color:beige;
   color:#033048;
   padding-top: 1rem;
   padding-left: 10em;
   display: flex;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+
 }
 
 body {
@@ -46,10 +51,12 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
 }
 
 .menu-items {
   justify-content: flex-end;
+  flex-direction: column;
 }
 
 .underHeader1 {
@@ -58,6 +65,14 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.backgroundImg {
+    background-image: url("../img/leoni_camera.JPG");
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
 .underHeader2 {
     background-image: url("../img/leoni and ukulele.JPG");
   background-repeat: no-repeat;

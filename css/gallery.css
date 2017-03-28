@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  flex-basis: 100%;
+  margin: 10px;
+  justify-content: center;
+  /*justify-content: flex-start;*/
+  /*width: 33%;*/
+}
+
+/*section {
+  flex-basis: 100%;
+}*/
+
+.img-holder {
+  width: 30rem;
+}
+
+img {
+  width: 100%;
+}
+
+.btn-holder {
+  width: 30rem;
+}
+
+button {
+  width: 49%;
+  height: 3rem;
+  border: none;
+  color: mediumvioletred;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+
+.galleryHeader {
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+
+@media(min-width: 600px) {
+  main {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(min-width: 800px) {
+  main {
+     flex-basis: 25%;
+  }
+}

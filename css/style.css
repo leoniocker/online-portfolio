@@ -15,6 +15,7 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+
 nav ul li {
   display: inline-block;
   align-content: flex-end;
@@ -23,6 +24,19 @@ nav ul li {
   padding: 1rem;
   color: mediumvioletred;
 }
+
+/*nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: gold;
+  background-color: royalblue;
+}
+nav a:focus,
+nav a:hover,
+nav a:active {
+  color: royalblue;
+  background-color: gold;
+}*/
 
 h2 {
   color: white;
@@ -36,7 +50,6 @@ h2 {
 
 .menu-items {
   justify-content: flex-end;
-
 }
 
 .underHeader1 {

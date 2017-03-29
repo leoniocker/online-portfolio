@@ -19,15 +19,21 @@ main {
 
 .img-holder {
   width: 30rem;
+  width: 100%;
+}
+
+.gallery {
+  width: 30rem;
+  width: 100%;
 }
 
 img {
   width: 100%;
 }
 
-.btn-holder {
+/*.btn-holder {
   width: 30rem;
-}
+}*/
 
 button {
   width: 49%;
@@ -42,7 +48,23 @@ button {
   padding: 10px;
   color: white;
   background-color: black;
+  width: 100%
 }
+
+@media screen and (max-width: 599px) {
+  nav.responsive {position: relative;}
+  nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 
 @media(min-width: 600px) {
   main {

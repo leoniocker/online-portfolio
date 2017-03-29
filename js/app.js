@@ -6,9 +6,50 @@ var imagesGal3 = ['img/sunset.jpg','img/sunset2.JPG','img/sunset3.JPG','img/suns
 
 var imagesGal4 = ['img/boat-water.JPG','img/swan.JPG','img/house-switzerland.JPG','img/fruits_korea.JPG']
 
+
+displayImage($('#imagesGal1 img'), imagesGal1, 0)
+displayImage($('#imagesGal2 img'), imagesGal2, 0)
+displayImage($('#imagesGal3 img'), imagesGal3, 0)
+displayImage($('#imagesGal4 img'), imagesGal4, 0)
+
+$('.next-btn').click(function () {
+  var selection =
+  $(this).parent().attr('id')
+    var gallery =
+  gallerySelector(selection)
+
+    var image =
+  $(this).parent().find('img')
+    var currentIndex =
+  gallery.indexOf(image.attr('src'))
+
+  var nextIndex = incrementIndex(gallery, currentIndex)
+    displayImage(image, gallery, nextIndex)
+  })
+
+  function incrementIndex (gallery, index) {
+    return (index >= gallery.length -1) ?
+    0 : index +1
+  }
+
+function displayImage (image, gallery, index) {
+  image.attr.('src', gallery[index])
+}
+
+function gallerySelector (gallery) {
+  return (gallery === 'imagesGal1') ?
+  imagesGal1 : imagesGal2 : imagesGal3 : imagesGal3
+}
+
+
+
+
+
+
+
+
 // listen to next button
-$('.next-btn').click(whenUserClicksNext)
-function whenUserClicksNext() {
+$('.next-btn').click(function () {
 
   // get current item shown
   var listImg1 = $('img').attr('src')
@@ -23,12 +64,11 @@ function whenUserClicksNext() {
       }
   // load next image
   $('img').attr('src', imagesGal1[nextIndex] )
-}
+})
 
 
 	// second function
-  $('.next-btn2').click(whenUserClicksNext2)
-  function whenUserClicksNext2() {
+  $('.next-btn2').click(function () {
   var listImg2 = $('img').attr('src')
    var currentIndex = imagesGal2.indexOf(listImg2)
    var nextIndex = undefined
@@ -39,11 +79,10 @@ function whenUserClicksNext() {
     nextIndex = currentIndex + 1
   }
 $('img').attr('src', imagesGal2[nextIndex] )
-}
+})
 
 // third function
-$('.next-btn3').click(whenUserClicksNext3)
-function whenUserClicksNext3() {
+$('.next-btn3').click(function () {
 
   // get current item shown
   var listImg3 = $('img').attr('src')
@@ -58,11 +97,10 @@ function whenUserClicksNext3() {
       }
   // load next image
   $('img').attr('src', imagesGal3[nextIndex] )
-}
+})
 
 // fourth function
-$('.next-btn4').click(whenUserClicksNext4)
-function whenUserClicksNext4() {
+$('.next-btn4').click(function () {
 
   // get current item shown
   var listImg4 = $('img').attr('src')
@@ -74,7 +112,17 @@ function whenUserClicksNext4() {
         nextIndex = 0
       } else {
         nextIndex = currentIndex + 1
-      }
+      })
   // load next image
   $('img').attr('src', imagesGal4[nextIndex] )
 }
+
+
+// function myFunction() {
+//     var x = document.getElementById("myTopnav");
+//     if (x.className === "navigation") {
+//         x.className += " responsive";
+//     } else {
+//         x.className = "navigation";
+//     }
+// }

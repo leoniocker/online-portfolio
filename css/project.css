@@ -1,0 +1,122 @@
+$bg: #fff;
+/*@import url('https://fonts.googleapis.com/css?family=Lora:400,700');*/
+
+.project{
+	width:100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 800px;
+  position: relative;
+	float: left;
+   /*min-width: 1200px;*/
+   font-family: 'Dosis', serif;
+}
+
+
+#prev, #next{
+	cursor:pointer;
+	z-index:100;
+	background:#000;
+  top: 300px;
+	height:50px;
+	width:50px;
+	display:block;
+	position:relative;
+	margin:0;
+	padding:0;
+
+}
+
+#next{
+	float:right;
+	right:0px;
+}
+
+#prev{
+	float:left;
+	left:0px;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #fff;
+	position:relative;
+	top:20%;
+	right:-40%;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right:15px solid #fff;
+	position:relative;
+	top:20%;
+	left:30%;
+}
+
+.content{
+    position:absolute;
+    /*display: inline-block;*/
+    text-align:center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 100px;*/
+   /*z-index: 99;*/
+    color: #000;
+    /*left:0px;*/
+    /*opacity: 1;*/
+  }
+
+    button{
+     position: relative;
+      padding: 10px 25px;
+      color: #fff;
+      background: #000;
+      border: 3px solid #000;
+      font-size: 1em;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 15px auto;
+    }
+
+
+
+  /*div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }*/
+
+  .awesomeProject{
+		background-image: url("../img/leoni_camera.JPG");
+	  height: 100vh;
+	  background-size: cover;
+	  background-attachment: fixed;
+}
+
+
+  .bear{ background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1488959138/bear_fkpw8s.png");
+        }
+
+  .cowboy{
+          background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1489218278/cowboy3_u7l8qf.png");
+        }
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+}

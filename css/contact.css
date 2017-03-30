@@ -1,0 +1,9 @@
+.ContactBackground {
+    background-color: pink;
+    padding: 4rem;
+}
+
+input:focus {
+  background-color:lightyellow;
+  border-bottom: 1px solid green;
+}

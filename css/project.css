@@ -5,7 +5,7 @@ $bg: #fff;
 	width:100%;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0;
   height: 800px;
   position: relative;
 	float: left;
@@ -66,11 +66,11 @@ $bg: #fff;
     text-align:center;
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+		background-color: rgba(0,0,0, 0.5);
+		/*background-color: rgba(0, 0, 0, 0.5);*/
     /*height: 100px;*/
    /*z-index: 99;*/
-    color: #000;
+    /*color: #000;*/
     /*left:0px;*/
     /*opacity: 1;*/
   }
@@ -78,7 +78,7 @@ $bg: #fff;
     button{
      position: relative;
       padding: 10px 25px;
-      color: #fff;
+      color: white;
       background: #000;
       border: 3px solid #000;
       font-size: 1em;
@@ -101,20 +101,38 @@ $bg: #fff;
   .awesomeProject{
 		background-image: url("../img/leoni_camera.JPG");
 	  height: 100vh;
+		width: 100%;
 	  background-size: cover;
+		background-repeat: no-repeat;
 	  background-attachment: fixed;
 }
 
 
-  .bear{ background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1488959138/bear_fkpw8s.png");
+  .undjetzt{
+		background-image: url("../img/uj-postkarte.JPG");
+		height: 100vh;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		/*background-attachment: fixed;*/
+		 /*background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1488959138/bear_fkpw8s.png");*/
         }
 
   .cowboy{
-          background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1489218278/cowboy3_u7l8qf.png");
+          /*background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1489218278/cowboy3_u7l8qf.png");*/
+					background-image: url("http://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2016/11/guyam-island-siargao-philippinen-Kopie.jpg");
+					height: 100vh;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-size: 100% auto contain;
         }
 
 
-
+.blackB {
+	background-color: rgba(0,0,0, 0.5);
+	flex-wrap: wrap;
+}
 
 *{
 	margin:0;

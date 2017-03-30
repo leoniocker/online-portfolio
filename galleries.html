@@ -5,22 +5,24 @@
     <title>Leoni's online Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,400,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/topnavigation.css">
     <link rel="stylesheet" href="css/gallery.css">
     <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script defer src="js/topnavigation.js" charset="utf-8"></script>
     <script defer src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
 
     <header>
-      <h1>Welcome to Leoni's online portfolio</h1>
-      <nav class="navigation">
-        <ul class="menu-items">
-          <li>About me</li>
-          <li>My projects</li>
-          <li>Blog</li>
-          <li>Contact Me</li>
-        </ul>
-      </nav>
+    <h1>Welcome to Leoni's online portfolio</h1>
+    <nav class="topnav" id="myTopnav">
+    <a href="index.html">Leoni</a>
+    <a href="galleries.html">Photography</a>
+    <a href="myProjects.html">My Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact Me</a>
+    <a href="javascript:void(0);" style="font-size:19px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
     </header>
 
     <section class="backgroundImg">
@@ -30,7 +32,7 @@
     <main class="wrapper" >
       <p class="galleryHeader">Impressions</p>
       <section class="gallery" id="imagesGal1">
-          <img src="" alt"" />
+          <img src="img/dog-korea.jpg" alt"" />
           <button class="previous-btn">Previous</button>
           <button class="next-btn">Next</button>
       </section>
@@ -39,7 +41,7 @@
     <main class="wrapper">
       <p class="galleryHeader">Humans</p>
       <section class="gallery" id="imagesGal2">
-          <img src="" alt"" />
+          <img src="img/human1.jpg" alt"" />
           <button class="previous-btn">Previous</button>
           <button class="next-btn">Next</button>
       </section>
@@ -48,7 +50,7 @@
     <main class="wrapper">
       <p class="galleryHeader">Sunsets</p>
       <section class="img-holder" id="imagesGal3">
-          <img src="" alt"" />
+          <img src="img/sunset.jpg" alt"" />
           <button class="previous-btn">Previous</button>
           <button class="next-btn">Next</button>
       </section>
@@ -57,7 +59,7 @@
     <main class="wrapper">
       <p class="galleryHeader">Outside</p>
       <section class="img-holder" id="imagesGal4">
-          <img src="" alt"" />
+          <img src="img/boat-water.JPG" alt"" />
           <button class="previous-btn">Previous</button>
           <button class="next-btn">Next</button>
       </section>

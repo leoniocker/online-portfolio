@@ -5,26 +5,26 @@
     <title>Leoni's online Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200,400,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/topnavigation.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/project.css">
     <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script defer src="js/topnavigation.js" charset="utf-8"></script>
     <script defer src="js/project.js" charset="utf-8"></script>
   </head>
   <body>
 
-    <header class="wrapper">
-      <h1>Welcome to Leoni's online portfolio</h1>
-      <nav class="navigation" id="myTopnav">
-        <ul class="menu-items">
-          <li><a href="#home">Home</a></li>
-          <li><a href="galleries.html">About me<a></li>
-          <li><a href="#home">My project</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
+    <h1>Welcome to Leoni's online portfolio</h1>
+    <nav class="topnav" id="myTopnav">
+    <a href="index.html">Leoni</a>
+    <a href="galleries.html">Photography</a>
+    <a href="myProjects.html">My Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact Me</a>
+    <a href="javascript:void(0);" style="font-size:19px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+  </header>
 
     <body>
       <div id="prev" alt="Prev" title="Prev">
@@ -34,37 +34,37 @@
     				<div class="arrow-right"></div>
     			</div>
 
-    <div class="project wrapper">
+    <!-- <div class="project"> -->
 
-            <div class="slide">
+            <div class="slide wrapper">
     					 <div class="content awesomeProject">
-                    <h1 class="title">Project in Singapore</h1>
-                  <h5>by Leoni Ocker</h5>
+                    <h1>Project in Singapore</h1>
+                  <h3>by Leoni Ocker</h3>
                   <p>This was a project conducted in April 2016. The mission was to make and send 50 postcards for and of random people in Singapore.</p>
                    <button><a target="_blank" href="http://yes-you-are-awesome.blogspot.sg">Read More</a></button>
               </div>
     				</div><!--/.slide-->
 
-             <div class="slide">
-              <div class="content cowboy">
-                    <h1 class="title">undjetzt- Konferenz 2012</h1>
-                  <h5>by Leoni Ocker</h5>
-                  <p>Living sustainability. Mobilizing people towards a sustainable lifestyle. Living, Learning and Giving.</p>
-                   <button><a target="_blank" href="http://www.undjetzt-konferenz.de/">Read More</button>
+             <div class="slide wrapper">
+              <div class="content undjetzt">
+                    <h1 class="backB">undjetzt- Konferenz 2012</h1>
+                  <h3 class="blackB">by Leoni Ocker</h3>
+                  <p class="blackB">Living sustainability. Mobilizing people towards a sustainable lifestyle. Living, Learning and Giving.</p>
+                   <button><a target="_blank" href="http://www.undjetzt-konferenz.de/">Read More</a></button>
             </div>
     				</div><!--/.Slide-->
 
 
-    				<div class="slide" >
-    					 <div class="content bear">
-                    <h1 class="title">One volunteering year in <br>the Philippines</h1>
-                  <h5>by Jane Doe</h5>
-                  <p>Jpsef war ein guter Mann, den mochten alle leute gern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis ante ac elit placerat luctus. In vitae varius ante.</p>
-                   <button><a target="_blank" href="http://loewi89.blogspot.sg/">>Read More</button>
-            </div>
+    				<div class="slide wrapper" >
+    					 <div class="content cowboy">
+                    <h1>One volunteering year in <br>the Philippines</h1>
+                  <h3>by Leoni Ocker</h3>
+                  <p>Working for one year in the Philippines was a life changing and eye-opening experience. Learning a lot about myself, other people and global concerns was just one aspect of my personal growth and awareness.  </p>
+                   <button><a target="_blank" href="http://loewi89.blogspot.sg/">Read More</a></button>
+               </div>
     				</div><!--/.Slide-->
 
-    		</div>
+    		<!-- </div> -->
 
       <!-- <footer class="bottomBanner wrapper">
           <h4 class="footerText">Thank you very much, everyone. thanks</h4>

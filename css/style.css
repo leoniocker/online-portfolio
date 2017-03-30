@@ -2,19 +2,22 @@
 margin:0;
 }
 
-header {
+header, body {
+  font-family: Dosis, sans-serif;
+}
+/*header {
   height: 4rem;
   width: 100%;
   background-color:beige;
   color:#033048;
   padding-top: 1rem;
   /*padding-left: 10em;*/
-  display: flex;
+  /*display: flex;
   /*position: fixed;*/
-  top: 0;
+  /*top: 0;
   overflow: hidden;
 
-}
+}*/*/*/
 
 body {
   font-family: 'Dosis', sans-serif;
@@ -30,21 +33,21 @@ nav ul li {
   color: mediumvioletred;
 }
 
-nav a {
+/*nav a {
     float: left;
     display: block;
     /*color: #f2f2f2;*/
-    text-align: center;
+    /*text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-}
+    font-size: 17px;*/
+/*}*/
 
 /*nav a:hover {
     background-color: #ddd;
     color: black;
 }*/
-nav a:focus,
+/*nav a:focus,
 nav a:hover,
 nav a:active {
   color: royalblue;
@@ -53,11 +56,17 @@ nav a:active {
 
 nav .icon {
     display: none;
-}
+}*/
 
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  background-color: beige;
+  padding: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -71,10 +80,10 @@ h2 {
   justify-content: center;
 }
 
-.menu-items {
+/*.menu-items {
   justify-content: flex-end;
   flex-direction: column;
-}
+}*/
 
 .underHeader1 {
     background-image: url("../img/leoni_camera.JPG");

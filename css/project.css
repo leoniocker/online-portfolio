@@ -1,16 +1,6 @@
 $bg: #fff;
-/*@import url('https://fonts.googleapis.com/css?family=Lora:400,700');*/
 
 .project{
-	width:100%;
-  left: 0;
-  right: 0;
-  margin: 0;
-  height: 800px;
-  position: relative;
-	float: left;
-   /*min-width: 1200px;*/
-   font-family: 'Dosis', serif;
 }
 
 
@@ -60,22 +50,8 @@ $bg: #fff;
 	left:30%;
 }
 
-.content{
-    position:absolute;
-    /*display: inline-block;*/
-    text-align:center;
-    width: 100%;
-    height: 100%;
-		background-color: rgba(0,0,0, 0.5);
-		/*background-color: rgba(0, 0, 0, 0.5);*/
-    /*height: 100px;*/
-   /*z-index: 99;*/
-    /*color: #000;*/
-    /*left:0px;*/
-    /*opacity: 1;*/
-  }
 
-    button{
+button {
      position: relative;
       padding: 10px 25px;
       color: white;
@@ -85,8 +61,8 @@ $bg: #fff;
       font-weight: 700;
       cursor: pointer;
       margin: 15px auto;
+			text-decoration: none;
     }
-
 
 
   /*div{
@@ -100,11 +76,11 @@ $bg: #fff;
 
   .awesomeProject{
 		background-image: url("../img/leoni_camera.JPG");
-	  height: 100vh;
-		width: 100%;
-	  background-size: cover;
+	  min-height: 80vh;
 		background-repeat: no-repeat;
-	  background-attachment: fixed;
+		/*width: 100%;*/
+	  /*background-size: cover;
+	  background-attachment: fixed;*/
 }
 
 
@@ -115,17 +91,13 @@ $bg: #fff;
 		background-size: cover;
 		background-repeat: no-repeat;
 		/*background-attachment: fixed;*/
-		 /*background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1488959138/bear_fkpw8s.png");*/
-        }
+	}
 
   .cowboy{
-          /*background-image: url("http://res.cloudinary.com/dxcuxowoi/image/upload/v1489218278/cowboy3_u7l8qf.png");*/
-					background-image: url("http://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2016/11/guyam-island-siargao-philippinen-Kopie.jpg");
+        background-image: url("http://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2016/11/guyam-island-siargao-philippinen-Kopie.jpg");
 					height: 100vh;
 					background-size: cover;
 					background-repeat: no-repeat;
-					background-attachment: fixed;
-					background-size: 100% auto contain;
         }
 
 
@@ -134,7 +106,56 @@ $bg: #fff;
 	flex-wrap: wrap;
 }
 
-*{
-	margin:0;
-	padding:0;
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-basis: 100%;
+  background-color: #F7F7F7;
+  padding: 32px;
+}
+
+img {
+  width: 100%;
+	max-width: 40vw;
+}
+
+aside {
+  flex-basis: 100%;
+  padding: 16px;
+  background-color: #333;
+}
+
+h5 {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 480px) {
+  .wrapper2 {
+    flex-direction: row;
+  }
+  main {
+    flex-basis: 70%;
+  }
+
+  aside {
+    flex-basis: 30%;
+  }
 }

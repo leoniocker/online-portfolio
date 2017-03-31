@@ -1,5 +1,6 @@
 *{
 margin:0;
+box-sizing: border-box;
 }
 
 header, body {
@@ -17,9 +18,9 @@ header, body {
   /*top: 0;
   overflow: hidden;
 
-}*/*/*/
+}*/
 
-body {
+/*body {
   font-family: 'Dosis', sans-serif;
 }
 
@@ -31,7 +32,7 @@ nav ul li {
   font-weight: 600;
   padding: 1rem;
   color: mediumvioletred;
-}
+}*/
 
 /*nav a {
     float: left;
@@ -64,7 +65,6 @@ nav .icon {
 }
 
 h1 {
-  background-color: beige;
   padding: 10px;
   text-align: center;
 }
@@ -73,6 +73,9 @@ h2 {
   color: white;
 }
 
+h3 {
+  text-align: center;
+}
 .wrapper {
   display: flex;
   flex-wrap: wrap;

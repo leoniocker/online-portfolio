@@ -4,7 +4,7 @@ var imagesGal2 = ['img/women-in-Vietnam.JPG','img/human1.jpg','img/human2.jpg','
 
 var imagesGal3 = ['img/sunset.jpg','img/sunset6.jpg', 'img/sunset2.JPG','img/sunset3.JPG','img/sunset4.JPG','img/sunset5.JPG']
 
-var imagesGal4 = ['img/nature1.JPG', 'img/boat-water.JPG','img/nature2.JPG','img/nature3.JPG','img/house-switzerland.JPG','img/fruits_korea.JPG' 'img/nature4.JPG',]
+var imagesGal4 = ['img/nature1.JPG', 'img/boat-water.JPG','img/nature2.JPG','img/nature6.JPG','img/nature3.JPG', 'img/nature5.JPG','img/house-switzerland.JPG','img/fruits_korea.JPG' 'img/nature4.JPG',]
 
 
 displayImage($('#imagesGal1 img'), imagesGal1, 0)

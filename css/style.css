@@ -97,8 +97,8 @@ h3 {
 
 .backgroundImg {
     background-image: url("../img/leoni_camera.JPG");
-    height: 80vh;
-    background-size: cover;
+    min-height: 60vh;
+    background-size: 30% auto;
     background-attachment: fixed;
   }
 

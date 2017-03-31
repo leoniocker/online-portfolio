@@ -1,10 +1,10 @@
-var imagesGal1 = ['img/dog-korea.jpg', 'img/donkeys.jpg', 'img/eagle-in-langkawi.JPG']
+var imagesGal1 = ['img/dog-korea.jpg', 'img/heart.JPG', 'img/jeans.JPG', 'img/donkeys.jpg', 'img/eagle-in-langkawi.JPG', 'img/heart2.JPG',]
 
-var imagesGal2 = ['img/human1.jpg','img/human2.jpg','img/human3.jpg','img/human4.jpg','img/human5.jpg']
+var imagesGal2 = ['img/women-in-Vietnam.JPG','img/human1.jpg','img/human2.jpg','img/human3.jpg','img/human4.jpg','img/human5.jpg']
 
-var imagesGal3 = ['img/sunset.jpg','img/sunset2.JPG','img/sunset3.JPG','img/sunset4.JPG','img/sunset5.JPG']
+var imagesGal3 = ['img/sunset.jpg','img/sunset6.jpg', 'img/sunset2.JPG','img/sunset3.JPG','img/sunset4.JPG','img/sunset5.JPG']
 
-var imagesGal4 = ['img/boat-water.JPG','img/swan.JPG','img/house-switzerland.JPG','img/fruits_korea.JPG']
+var imagesGal4 = ['img/nature1.JPG', 'img/boat-water.JPG','img/nature2.JPG','img/nature3.JPG','img/house-switzerland.JPG','img/fruits_korea.JPG' 'img/nature4.JPG',]
 
 
 displayImage($('#imagesGal1 img'), imagesGal1, 0)
